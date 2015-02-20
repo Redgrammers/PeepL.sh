@@ -9,29 +9,29 @@ Peeps are a way of marking if your online, offline, AFK, etc. Someone just acces
 NAME
 	peep - Peep manager
 
-SYNOPSIS
+SYNOPSIS<br/>
 	peep [-v] [-u username] [-r username]
 	peep write [vim] [nano] [-a application] [-u username]
 
-DESCRIPTION
+DESCRIPTION<br/>
 		`peep` is the Peep manager for PeepL.
 
-OPTIONS
-		-v
-			View your own or anyone else's Peep.
-		-u username
-			Select a username for peep to run as. Can only be run as root unless with -v.
-		-r username
-			Ready a user's Peep. Can only be run as root.
-		write
-			Extra options for writing your Peep.
-			vim
-				Use this if you want to edit your Peep with `vim`.
-			nano
-				Use this if you want to edit your Peep with GNU `nano`.
-			-a application
-				Use this if you have an application that's better than `vim` and `nano`, and you want to use it.
-			-u username
+OPTIONS<br/>
+		-v<br/>
+			View your own or anyone else's Peep.<br/>
+		-u username<br/>
+			Select a username for peep to run as. Can only be run as root unless with -v.<br/>
+		-r username<br/>
+			Ready a user's Peep. Can only be run as root.<br/>
+		write<br/>
+			Extra options for writing your Peep.<br/>
+			vim<br/>
+				Use this if you want to edit your Peep with `vim`.<br/>
+			nano<br/>
+				Use this if you want to edit your Peep with GNU `nano`.<br/>
+			-a application<br/>
+				Use this if you have an application that's better than `vim` and `nano`, and you want to use it.<br/>
+			-u username<br/>
 				Select a username for peep to run as. Can only be run as root.
 
 # Q&A
