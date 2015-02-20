@@ -2,5 +2,6 @@ setup () {
 	mv ./* /usr/local
 	touch /.users.db
 	chmod 755 /.users.db
+	source cleanup.sh
 }
-sudo -p "System Administrator Password: " setup
+sudo -p "Administrator Password: " setup
