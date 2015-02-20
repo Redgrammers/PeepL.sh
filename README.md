@@ -33,7 +33,8 @@ OPTIONS
 				Use this if you have an application that's better than `vim` and `nano`, and you want to use it.
 			-u username
 				Select a username for peep to run as. Can only be run as root.
-```<br/>
+```
+
 # Q&A
 Q: *?<br/>
 A: You monster.
