@@ -1,8 +1,10 @@
 read -p "Username: " usr
 read -sp "Password: " pass
+echo
 read -sp "Confirm Password: " cpass
+echo
 
 if ! [ "$cpass" = "$pass" ]; then
 	echo "Passwords do not match. Please try again."
-	source ../login.sh
+	source ./signup.sh
 fi
