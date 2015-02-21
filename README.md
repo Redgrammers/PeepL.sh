@@ -9,7 +9,7 @@ Peeps are a way of marking if your online, offline, AFK, etc. Someone just acces
 NAME
 	peep - Peep manager
 
-SYNOPSIS<br/>
+SYNOPSIS
 	peep [-v] [-u username] [-r username]
 	peep write [vim] [nano] [-a application] [-u username]
 
