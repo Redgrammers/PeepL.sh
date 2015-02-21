@@ -1,10 +1,4 @@
-setup () {
-	mv ./* /usr/local
-	touch /.users.db
-	chmod 755 /.users.db
-	source cleanup.sh
-}
-sudo -p "Administrator Password: " setup
+sudo -p "Administrator Password: " sudo/setup.sh
 if [ "$?" = "1" ]; then exit 1; fi
 cd /usr/local
 which -s sha256sum
