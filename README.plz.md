@@ -18,11 +18,11 @@ DESCRIPTION
 
 OPTIONS
 		-v
-			View your own or anyone else's Peep.<br/>
+			View your own or anyone else's Peep.
 		-u username
-			Select a username for peep to run as. Can only be run as root unless with -v.<br/>
+			Select a username for peep to run as. Can only be run as root unless with -v.
 		-r username
-			Ready a user's Peep. Can only be run as root.<br/>
+			Ready a user's Peep. Can only be run as root.
 		write
 			Extra options for writing your Peep.
 			vim
