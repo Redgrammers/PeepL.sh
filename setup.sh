@@ -6,7 +6,7 @@ cd /usr/local
 rm -r README.md*
 which -s sha256sum
 if [ "$?" = "0" ]; then
-	echo "echo $1 | sha256sum" >> compat/shasum
+	echo "echo -n $1 | sha256sum" >> compat/shasum
 else
-	echo "echo $1 | shasum -a 256" >> compat/shasum
+	echo "echo -n $1 | shasum -a 256" >> compat/shasum
 fi
