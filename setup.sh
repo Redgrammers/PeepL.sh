@@ -1,5 +1,7 @@
-sudo -p "Administrator Password: " sudo/setup.sh
+echo "Requiring Administrator Password for '$HOME/PeepL.sh/functions/setup.sh'"
+sudo -p "Administrator Password: " functions/setup.sh
 if [ "$?" = "1" ]; then exit 1; fi
+if ! [ -d /usr/local ]; then sudo mkdir /usr/local; chmod -R 777 /usr/local; fi
 cd /usr/local
 rm -r README.md*
 which -s sha256sum
