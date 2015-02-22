@@ -15,25 +15,25 @@ SYNOPSIS
 	peep write [vim] [nano] [-a application] [-u username]
 
 DESCRIPTION
-		`peep` is the Peep manager for PeepL.
+	`peep` is the Peep manager for PeepL.
 
 OPTIONS
-		-v
-			View your own or anyone else's Peep.
+	-v
+		View your own or anyone else's Peep.
+	-u username
+		Select a username for peep to run as. Can only be run as root unless with -v.
+	-r username
+		Ready a user's Peep. Can only be run as root.
+	write
+		Extra options for writing your Peep.
+		vim
+			Use this if you want to edit your Peep with `vim`.
+		nano
+			Use this if you want to edit your Peep with GNU `nano`.
+		-a application
+			Use this if you have an application that's better than `vim` and `nano`, and you want to use it.
 		-u username
-			Select a username for peep to run as. Can only be run as root unless with -v.
-		-r username
-			Ready a user's Peep. Can only be run as root.
-		write
-			Extra options for writing your Peep.
-			vim
-				Use this if you want to edit your Peep with `vim`.
-			nano
-				Use this if you want to edit your Peep with GNU `nano`.
-			-a application
-				Use this if you have an application that's better than `vim` and `nano`, and you want to use it.
-			-u username
-				Select a username for peep to run as. Can only be run as root.
+			Select a username for peep to run as. Can only be run as root.
 ```
 
 # Q&A
