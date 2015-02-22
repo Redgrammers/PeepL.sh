@@ -1,6 +1,10 @@
 # PeepL.sh
 [![Join the chat at https://gitter.im/Redgrammers/PeepL.sh](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Redgrammers/PeepL.sh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)<br/>
-An easy log in/out system for tracking users on your computer or people on a server.<br/>
+An easy log in/out system for tracking users on your computer or people on a server.
+
+Setup PeepL.sh by running:<br/>
+`git clone https://github.com/Redgrammers/PeepL.sh && source PeepL.sh/setup.sh`
+
 Comes with Peeps.
 
 Peeps are a way of marking if your online, offline, AFK, etc. Someone just accesses a public file in the system corresponding to you. For example, user `John`'s Peep would be located at `/Peeps/John.peep` and it could be viewed by typing `peep -v -u John`. For John to set his Peep he could use `peep`.
