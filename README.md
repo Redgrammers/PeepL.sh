@@ -16,7 +16,7 @@ NAME
 
 SYNOPSIS
 	peep [-v] [-u username] [-r username]
-	peep write [vim] [nano] [-a application] [-u username]
+	peep write [vim|nano] [-a application] [-u username]
 
 DESCRIPTION
 	`peep` is the Peep manager for PeepL.
