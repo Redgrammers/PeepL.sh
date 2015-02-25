@@ -1,2 +1,8 @@
 #!/bin/bash
 case "$1" in
+	"")
+		[ -e "/Peeps" ] || mkdir /Peeps && chmod 777 /Peeps
+		[ -e "/Peeps/$USER" ] || touch "/Peeps/$USER" && chmod 777 "/Peeps/$USER"
+		nano "/Peeps/$USER";;
+	"-v")
+		[ "$2 ]
